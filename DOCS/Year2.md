@@ -30,8 +30,8 @@ Summer Research & PID Control Transition
 
 ---
 
-🎥[Zero Board Prototype Run](https://youtube.com/shorts/TxBQM8avwMc?feature=share) <br>
-🎥[SVNIT Competition Run](https://youtube.com/shorts/0UcYGhhQcCk?feature=share) <br>
+### 🎥[Zero Board Prototype Run](https://youtube.com/shorts/TxBQM8avwMc?feature=share) <br>
+### 🎥[SVNIT Competition Run](https://youtube.com/shorts/0UcYGhhQcCk?feature=share) <br>
 
 ---
 
@@ -88,8 +88,8 @@ The implementation of PID-based control significantly improved motion smoothness
 
 ---
 
-🎥[Technoxian Competition Abstract](https://youtube.com/shorts/DxRt9Ad0ADs?feature=share) <br>
-🎥[PCB Robot First Run](https://youtube.com/shorts/XTIpc-7uPW8?feature=share) <br>
+### 🎥[Technoxian Competition Abstract](https://youtube.com/shorts/DxRt9Ad0ADs?feature=share) <br>
+### 🎥[PCB Robot First Run](https://youtube.com/shorts/XTIpc-7uPW8?feature=share) <br>
 
 ---
 
@@ -143,8 +143,8 @@ The first custom PCB implementation successfully improved circuit reliability, m
 
 ---
 
-🎥[Slim Lipo Battery On-Board Charging](https://youtube.com/shorts/rOE8SAeBYEY?feature=share) <br>
-🎥[Full Run at Nirma University](https://youtu.be/AxtIyTeG06o) <br>
+### 🎥[Slim Lipo Battery On-Board Charging](https://youtube.com/shorts/rOE8SAeBYEY?feature=share) <br>
+### 🎥[Full Run at Nirma University](https://youtu.be/AxtIyTeG06o) <br>
 
 ---
 
@@ -196,7 +196,7 @@ The transition to a compact Li-Po-based power system significantly improved robo
 
 ---
 
-🎥[Hybrid Sensor System](https://youtu.be/cHDWOMArfoY) <br>
+### 🎥[Hybrid Sensor System](https://youtu.be/cHDWOMArfoY) <br>
 
 ---
 
