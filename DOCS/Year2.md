@@ -1,3 +1,7 @@
+[← Year 1](Year1.md) | [Main Repository](../README.md) | [Next → Year 3](Year3.md)
+
+
+
 # INTERMEDIATE DEVELOPMENT PHASE
 
 Summer Research & PID Control Transition

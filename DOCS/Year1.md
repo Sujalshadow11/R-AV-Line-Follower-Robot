@@ -1,3 +1,7 @@
+[← Main Repository](../README.md) | [Next → Year 2](Year2.md)
+
+
+
 # Advanced Line Following Robot (LFR)
 
 **A High‑Performance, Memory‑Enabled, Path‑Optimizing Line Following Robot**

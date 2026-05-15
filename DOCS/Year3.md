@@ -1,3 +1,7 @@
+[← Year 2](Year2.md) | [Main Repository](../README.md)
+
+
+
 # ADVANCED DEVELOPMENT PHASE
 
 Runtime Configurability, Memory Systems & Autonomous Intelligence
