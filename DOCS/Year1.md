@@ -20,6 +20,8 @@ This document is a **chronological engineering journey** spanning three academic
 
 What began as a simple beginner-friendly robot that merely followed a line gradually transformed into a **high-performance, memory-enabled, path-optimizing autonomous system**. Each iteration reflects deliberate design decisions, mistakes encountered, limitations discovered, and solutions engineered.
 
+---
+
 # Introduction — Why a Line Follower?
 
 A line following robot is often considered one of the simplest entry points into robotics. It uses sensors to detect a line and motors to follow it. Straightforward. Predictable. Almost trivial.
@@ -37,13 +39,13 @@ This documentation dives deep into my **three-year journey with line following r
 
 # YEAR 1 - The stepping stones in Automation
 
----
 
-## 1.1.1 Initial Prototype — Basic Starter Kit
+# 1.1.1 Initial Prototype — Basic Starter Kit
 
-Develop the first functional line-following robot using readily available components.
+>Develop the first functional line-following robot using readily available components.
+>
 
-#### System Configuration
+### System Configuration
 
 - Microcontroller: Arduino UNO
 - Power Source: Power Bank
@@ -51,33 +53,39 @@ Develop the first functional line-following robot using readily available compon
 - Sensors: Low-cost local market sensor array
 - Motor Interface: Basic Motor Driver Shield
 
-#### Initial Control Logic
+<p align="center">
+  <img src="../IMAGES/Year1/1.jpg" width="45%">
+  <img src="../IMAGES/Year1/2.jpg" width="45%" height="350">
+</p>
+
+### Initial Control Logic
 
 - Left sensor on line, turn left
 - Right sensor on line, turn right
 
-#### Observations
+### Observations
 
 - Robot moved in a zigzag trajectory
 - Motion speed was very low
 - Direction correction was inconsistent
 - Robot could only operate under simple track conditions
 
-#### Engineering Remark
+### Engineering Remark
 
 At this stage, the robot operated purely using reactive conditional logic without structured understanding of track geometry or motion dynamics.
 
-#### Result
+### Result
 
 A functional proof-of-concept line follower was successfully developed, establishing the foundation for future hardware and control improvements.
 
 ---
 
-## 1.1.2 Sensor Expansion & Mechanical Calibration Prototype
+# 1.1.2 Sensor Expansion & Mechanical Calibration Prototype
 
-Improve line detection stability and turning capability through better sensors, mechanical calibration, and refined hardware integration.
+>Improve line detection stability and turning capability through better sensors, mechanical calibration, and refined hardware integration.
+>
 
-#### System Configuration
+### System Configuration
 
 - Microcontroller: Arduino UNO
 - Power Source: Li-Po Battery
@@ -86,35 +94,49 @@ Improve line detection stability and turning capability through better sensors, 
 - Motor Interface: L293D Motor Driver
 - Additionally an adjustable slider mechanism was also used to set the detection range of sensors manually.
 
-#### Initial Control Logic
+<p align="center">
+  <img src="../IMAGES/Year1/3.jpg" width="45%">
+  <img src="../IMAGES/Year1/4.jpg" width="45%">
+  <img src="../IMAGES/Year1/6.jpeg">
+</p>
+
+---
+
+🎥[Prototype Run](https://youtube.com/shorts/G9jCbpRqdrw?feature=share) <br>
+
+---
+
+### Initial Control Logic
+
 
 - Left sensor on line, turn left
 - Right sensor on line, turn right
 - Center Sensor on line, ensures robot on track
 - Outer two sensors aided in detecting 90 degree right and left turns
 
-#### Observations
+### Observations
 
 - Robot moved in a zigzag trajectory, but showed improvement in oscillations by using the center sensor.
 - Motion speed was improved because of faster response from individual sensors and accurate BO Motors.
 - Direction correction improved but still inconsistent.
 - Robot could only operate under simple track conditions.
 
-#### Engineering Remark
+### Engineering Remark
 
 At this stage, the system hardware was refined through the integration of higher-quality sensing and drive components, resulting in noticeable improvements in tracking stability and motion response.
 
-#### Result
+### Result
 
 The second iteration demonstrated measurable improvements in sensing reliability, directional correction, and motion responsiveness, validating the importance of sensor placement and component quality in line-following performance.
 
 ---
 
-## 1.1.3 Precision Drive System Upgrade
+# 1.1.3 Precision Drive System Upgrade
 
-Improve motion precision, response consistency, and control stability through upgraded drive motors and enhanced motor driving circuitry.
+>Improve motion precision, response consistency, and control stability through upgraded drive motors and enhanced motor driving circuitry.
+>
 
-#### System Configuration
+### System Configuration
 
 - Microcontroller: Arduino UNO
 - Power Source: Custom Li-Ion Battery
@@ -123,7 +145,19 @@ Improve motion precision, response consistency, and control stability through up
 - Motor Interface: L298N Motor Driver
 - Improved chassis balancing and motor mounting alignment were also implemented to reduce mechanical play during motion.
 
-#### Initial Control Logic
+<p align="center">
+  <img src="../IMAGES/Year1/5.jpg">
+</p>
+
+---
+
+🎥[Slow Motion Video Demonstration](https://youtu.be/9cnTpXSCFiw) <br>
+🎥[Watch Competition Video at ITM Illuminati 2024](https://youtu.be/2ZwEChPN6mk) <br>
+🎥[Watch Competition Preparation Video for Ahmedabad University Ingenium 2024](https://youtu.be/NP2wJxn7rvI) <br>
+
+---
+
+### Initial Control Logic
 
 - Left sensor on line, turn left
 - Right sensor on line, turn right
@@ -131,7 +165,7 @@ Improve motion precision, response consistency, and control stability through up
 - Outer two sensors aided in detecting 90 degree right and left turns
 - Turning response thresholds were further refined for smoother directional correction
 
-#### Observations
+### Observations
 
 - Robot motion became significantly smoother due to reduced mechanical play in N20 geared motors
 - Higher torque and improved gear precision increased motion stability
@@ -139,16 +173,18 @@ Improve motion precision, response consistency, and control stability through up
 - Turning response became more accurate because of refined motor behavior and improved control logic
 - Sharp turns were handled more consistently compared to previous iterations
 
-#### Engineering Remark
+### Engineering Remark
 
 At this stage, the focus shifted toward improving motion precision and drivetrain reliability. The integration of N20 geared motors and a more capable motor driver significantly enhanced the robot’s responsiveness, stability, and turning consistency.
 
-#### Result
+### Result
 
 The upgraded drive system demonstrated substantial improvements in speed, motion smoothness, and directional accuracy, highlighting the importance of precise motor control and mechanical stability in line-following performance.
 
 ---
+# Conclusion
 
-Although significant improvements were achieved through hardware refinement and expanded sensing capabilities, the robot still relied heavily on reactive correction methods. Increasing speed further resulted in instability, oscillations, and inconsistent trajectory control. These limitations motivated the exploration of closed-loop feedback systems and ultimately led to the adoption of PID-based motion control during the intermediate development phase.
+>Although significant improvements were achieved through hardware refinement and expanded sensing capabilities, the robot still relied heavily on reactive correction methods. Increasing speed further resulted in instability, oscillations, and inconsistent trajectory control. These limitations motivated the exploration of closed-loop feedback systems and ultimately led to the adoption of PID-based motion control during the intermediate development phase.
+>
 
 ---
