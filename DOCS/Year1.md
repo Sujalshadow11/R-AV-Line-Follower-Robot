@@ -146,3 +146,5 @@ The upgraded drive system demonstrated substantial improvements in speed, motion
 ---
 
 Although significant improvements were achieved through hardware refinement and expanded sensing capabilities, the robot still relied heavily on reactive correction methods. Increasing speed further resulted in instability, oscillations, and inconsistent trajectory control. These limitations motivated the exploration of closed-loop feedback systems and ultimately led to the adoption of PID-based motion control during the intermediate development phase.
+
+---
