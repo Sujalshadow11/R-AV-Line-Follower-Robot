@@ -6,8 +6,6 @@
 
 **A High‑Performance, Memory‑Enabled, Path‑Optimizing Line Following Robot**
 
-**Author :** Sujal
-
 **Platform :** Teensy 4.1, Arduino Nano, Arduino UNO
 
 **Category :** Robotics / Embedded Systems / Autonomous Navigation

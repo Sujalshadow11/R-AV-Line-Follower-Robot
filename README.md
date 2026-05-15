@@ -59,9 +59,22 @@ DOCS/
 └── Year3.md
 
 CODE/
+
 PCB/
+├── Arduino_Nano_Carrier+Chassis_PCB
+├── Teensy4.1_Carrier_Module_PCB
+└── 10-Channel_Analog_IR_Sensor_Array_PCB
+
 IMAGES/
+├── Year1
+├── Year2
+└── Year3
+
 VIDEOS/
+├── Year1_Vid_Links
+├── Year2_Vid_Links
+├── Year3_Vid_Links
+└── Full_Playlist_Link
 ```
 
 ---
@@ -109,5 +122,17 @@ Project demonstration videos and testing footage will be available through YouTu
 
 ## Author
 
-**Sujal**  
-Robotics / Embedded Systems / Autonomous Navigation
+**Sujal Chauhan**  
+Robotics / Embedded Systems / Autonomous Navigation / PCB Designer
+
+## Team Members
+**Mustafa Raja** <br>
+Robotics / Coding Expert / Control Systems <br>
+**Juned Ghanchi** <br>
+Electronics / Robot Design / Logic Building <br>
+
+**Moksha Shah** <br>
+**Sneha Gohel** <br>
+**Alok Singh** <br>
+**Ritesh Swain** <br>
+**Om Sikligar** <br>
