@@ -100,7 +100,7 @@ A functional proof-of-concept line follower was successfully developed, establis
 
 ---
 
-🎥[Prototype Run](https://youtube.com/shorts/G9jCbpRqdrw?feature=share) <br>
+### 🎥[Prototype Run](https://youtube.com/shorts/G9jCbpRqdrw?feature=share) <br>
 
 ---
 
@@ -149,9 +149,9 @@ The second iteration demonstrated measurable improvements in sensing reliability
 
 ---
 
-🎥[Slow Motion Video Demonstration](https://youtu.be/9cnTpXSCFiw) <br>
-🎥[Watch Competition Video at ITM Illuminati 2024](https://youtu.be/2ZwEChPN6mk) <br>
-🎥[Watch Competition Preparation Video for Ahmedabad University Ingenium 2024](https://youtu.be/NP2wJxn7rvI) <br>
+### 🎥[Slow Motion Video Demonstration](https://youtu.be/9cnTpXSCFiw) <br>
+### 🎥[Watch Competition Video at ITM Illuminati 2024](https://youtu.be/2ZwEChPN6mk) <br>
+### 🎥[Watch Competition Preparation Video for Ahmedabad University Ingenium 2024](https://youtu.be/NP2wJxn7rvI) <br>
 
 ---
 
