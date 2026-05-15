@@ -1,7 +1,5 @@
 [← Year 1](Year1.md) | [Main Repository](../README.md) | [Next → Year 3](Year3.md)
 
-
-
 # INTERMEDIATE DEVELOPMENT PHASE
 
 Summer Research & PID Control Transition
@@ -10,13 +8,13 @@ Summer Research & PID Control Transition
 
 # YEAR 2 - Precision Control & Motion Intelligence
 
----
 
-## 2.1.1 First PID Prototype
+# 2.1.1 First PID Prototype
 
-Introduce closed-loop feedback control using PID algorithms to achieve smoother, faster, and more stable line-following behavior.
+>Introduce closed-loop feedback control using PID algorithms to achieve smoother, faster, and more stable line-following behavior.
+>
 
-#### System Configuration
+### System Configuration
 
 - Microcontroller: Arduino NANO
 - Power Source: Li-ion Battery Pack
@@ -25,7 +23,19 @@ Introduce closed-loop feedback control using PID algorithms to achieve smoother,
 - Motor Interface: TB6612FNG Motor Driver
 - Development Platform: Zero board prototyping for rapid hardware experimentation
 
-#### Initial Control Logic
+<p align="center">
+  <img src="../IMAGES/Year2/7.jpg" width="45%">
+  <img src="../IMAGES/Year2/8.png" width="45%">
+</p>
+
+---
+
+🎥[Zero Board Prototype Run](https://youtube.com/shorts/TxBQM8avwMc?feature=share) <br>
+🎥[SVNIT Competition Run](https://youtube.com/shorts/0UcYGhhQcCk?feature=share) <br>
+
+---
+
+### Initial Control Logic
 
 - Sensor array readings were used to calculate positional error relative to the line
 - PID control continuously adjusted motor speed based on real-time error values
@@ -33,7 +43,7 @@ Introduce closed-loop feedback control using PID algorithms to achieve smoother,
 - Derivative control minimized oscillations during high-speed corrections
 - Integral contribution was initially kept minimal to avoid instability during tuning
 
-#### Observations
+### Observations
 
 - Robot movement became significantly smoother compared to previous IF-ELSE based control systems
 - Zigzag motion was drastically reduced due to continuous feedback correction
@@ -43,21 +53,22 @@ Introduce closed-loop feedback control using PID algorithms to achieve smoother,
 - PID tuning required repeated experimentation to balance responsiveness and stability
 - High proportional gain introduced oscillations, while lower gain reduced correction responsiveness
 
-#### Engineering Remark
+### Engineering Remark
 
 This stage marked a major transition from reactive to controlled motion behavior. Instead of performing abrupt directional corrections, the robot continuously adjusted its trajectory using real-time feedback from the sensor array. The integration of the TB6612FNG motor driver further improved motor response precision, enabling stable high-speed PID-controlled operation.
 
-#### Result
+### Result
 
 The implementation of PID-based control significantly improved motion smoothness, tracking accuracy, and high-speed stability. Combined with the precise motor response of the TB6612FNG driver and reliable sensor feedback from the Smartelex array, the robot established a strong foundation for future motion optimization and advanced autonomous navigation experiments.
 
 ---
 
-## 2.1.2 First Custom PCB Prototype
+# 2.1.2 First Custom PCB Prototype
 
-Introduce custom PCB-based integration to improve circuit reliability, wiring organization, compactness, and embedded system scalability.
+>Introduce custom PCB-based integration to improve circuit reliability, wiring organization, compactness, and embedded system scalability.
+>
 
-#### System Configuration
+### System Configuration
 
 - Microcontroller: Arduino NANO
 - Power Source: Li-ion Battery Pack
@@ -67,14 +78,29 @@ Introduce custom PCB-based integration to improve circuit reliability, wiring or
 - Development Platform: Custom designed PCB developed using EasyEDA
 - Initial circuit validation was performed using zero-board prototyping before PCB fabrication
 
-#### Initial Control Logic
+<p align="center">
+  <img src="../IMAGES/Year2/9.png" width="45%">
+  <img src="../IMAGES/Year2/10.jpg" width="45%">
+  <img src="../IMAGES/Year2/11.png" width="45%">
+  <img src="../IMAGES/Year2/12.png" width="45%">
+  <img src="../IMAGES/Year2/13.jpeg">
+</p>
+
+---
+
+🎥[Technoxian Competition Abstract](https://youtube.com/shorts/DxRt9Ad0ADs?feature=share) <br>
+🎥[PCB Robot First Run](https://youtube.com/shorts/XTIpc-7uPW8?feature=share) <br>
+
+---
+
+### Initial Control Logic
 
 - PID-based line-following logic was retained from the previous iteration
 - Sensor array readings continuously calculated positional error relative to the track
 - Motor PWM values were dynamically adjusted using PID correction output
 - Improved PCB routing reduced electrical noise and unstable signal connections during operation
 
-#### Observations
+### Observations
 
 - Circuit organization became significantly cleaner compared to zero-board prototyping
 - Wiring complexity and loose interconnections were drastically reduced
@@ -84,19 +110,20 @@ Introduce custom PCB-based integration to improve circuit reliability, wiring or
 - Bulky Li-ion battery pack increased overall system weight and occupied significant chassis space
 - Larger battery dimensions limited compact chassis integration and affected weight distribution
 
-#### Engineering Remark
+### Engineering Remark
 
 This stage marked the transition from prototype-level experimentation to structured embedded system design. Learning PCB design through EasyEDA enabled the development of a cleaner, more reliable, and scalable electronics architecture while significantly improving system integration quality.
 
-#### Result
+### Result
 
 The first custom PCB implementation successfully improved circuit reliability, modularity, and system organization, establishing a strong foundation for future compact hardware optimization and advanced embedded robotics development.
 
 ---
 
-## 2.1.3 Compact Power System & Embedded Miniaturization
+# 2.1.3 Compact Power System & Embedded Miniaturization
 
-Optimize the robot’s physical architecture by reducing power system size, improving weight distribution, and enhancing overall compactness for high-speed operation.
+>Optimize the robot’s physical architecture by reducing power system size, improving weight distribution, and enhancing overall compactness for high-speed operation.
+>
 
 ### System Configuration
 
@@ -107,6 +134,19 @@ Optimize the robot’s physical architecture by reducing power system size, impr
 - Motor Interface: TB6612FNG Motor Driver
 - Development Platform: Custom PCB designed using EasyEDA
 - Battery capacity and discharge requirements were selected based on calculated robot power consumption
+
+<p align="center">
+  <img src="../IMAGES/Year2/14.jpeg" width="45%">
+  <img src="../IMAGES/Year2/15.jpg" width="45%">
+  <img src="../IMAGES/Year2/16.jpg">
+</p>
+
+---
+
+🎥[Slim Lipo Battery On-Board Charging](https://youtube.com/shorts/rOE8SAeBYEY?feature=share) <br>
+🎥[Full Run at Nirma University](https://youtu.be/AxtIyTeG06o) <br>
+
+---
 
 
 ### Initial Control Logic
@@ -135,9 +175,10 @@ The transition to a compact Li-Po-based power system significantly improved robo
 
 ---
 
-## 2.1.4 Custom Sensor Experimentation — TCRT & QRE1113
+# 2.1.4 Custom Sensor Experimentation — TCRT & QRE1113
 
-Explore the behavior, precision, and performance characteristics of discrete IR sensing components to achieve deeper understanding of high-speed line detection systems.
+>Explore the behavior, precision, and performance characteristics of discrete IR sensing components to achieve deeper understanding of high-speed line detection systems.
+>
 
 ### System Configuration
 
@@ -148,6 +189,16 @@ Explore the behavior, precision, and performance characteristics of discrete IR 
 - Motor Interface: TB6612FNG Motor Driver
 - Development Platform: Custom PCB and zero-board prototyping for sensor experimentation
 - Control System: PID-based closed-loop motion control
+
+<p align="center">
+  <img src="../IMAGES/Year2/17.jpg">
+</p>
+
+---
+
+🎥[Hybrid Sensor System](https://youtu.be/cHDWOMArfoY) <br>
+
+---
 
 ### Initial Control Logic
 
@@ -191,15 +242,17 @@ This stage shifted the focus from using ready-made sensing modules to understand
 The sensor experimentation phase significantly expanded the understanding of precision line detection system design and demonstrated the effectiveness of hybrid sensing architectures in autonomous robotics. The integration of QRE1113 sensors for fine PID stabilization and TCRT sensors for robust junction detection established a strong foundation for future custom sensor array development and advanced high-speed navigation systems.
 
 ---
+# Conclusion
 
-The intermediate development phase marked a major transformation in the overall engineering maturity of the robotic system. The transition from reactive IF-ELSE logic to PID-based closed-loop control significantly improved motion smoothness, trajectory stability, and high-speed navigation capability.
-
-During this phase, the project expanded beyond basic robotics experimentation into broader embedded system engineering domains including PCB design, power optimization, competition-oriented system validation, and precision sensor research.
-
-The introduction of custom PCB integration, compact Li-Po power systems, and hybrid sensing architectures enabled the robot to evolve into a more reliable, scalable, and competition-ready autonomous platform. In parallel, experimentation with discrete sensing components provided deeper understanding of sensor physics, environmental sensitivity, and precision feedback control.
-
-Participation in Technoxian — World Robotics Championship further validated the practical effectiveness of the developed system under real-world competitive conditions.
-
-By the end of this phase, the robot had progressed from a simple line-following prototype into a high-speed PID-controlled embedded robotic platform capable of stable autonomous navigation and advanced sensing experimentation.
+>The intermediate development phase marked a major transformation in the overall engineering maturity of the robotic system. The transition from reactive IF-ELSE logic to PID-based closed-loop control significantly improved motion smoothness, trajectory stability, and high-speed navigation capability.
+>
+>During this phase, the project expanded beyond basic robotics experimentation into broader embedded system engineering domains including PCB design, power optimization, competition-oriented system validation, and precision sensor research.
+>
+>The introduction of custom PCB integration, compact Li-Po power systems, and hybrid sensing architectures enabled the robot to evolve into a more reliable, scalable, and competition-ready autonomous platform. In parallel, experimentation with discrete sensing components provided deeper understanding of sensor physics, environmental sensitivity, and precision feedback control.
+>
+>Participation in Technoxian — World Robotics Championship further validated the practical effectiveness of the developed system under real-world competitive conditions.
+>
+>By the end of this phase, the robot had progressed from a simple line-following prototype into a high-speed PID-controlled embedded robotic platform capable of stable autonomous navigation and advanced sensing experimentation.
+>
 
 ---
