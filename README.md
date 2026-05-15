@@ -4,7 +4,7 @@
 
 ---
 
-## Overview
+# Overview
 
 This repository documents my three-year engineering journey in designing and developing advanced Line Following Robots (LFRs), beginning from a simple beginner-level robot and evolving into a fully modular, memory-enabled, shortest-path-optimizing autonomous navigation platform.
 
@@ -22,7 +22,7 @@ The project progressively expanded across multiple engineering domains including
 
 ---
 
-## Development Timeline
+# Development Timeline
 
 ### YEAR 1 — Foundations of Reactive Robotics
 
