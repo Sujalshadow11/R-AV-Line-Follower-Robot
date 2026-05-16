@@ -150,11 +150,11 @@ Project demonstration videos and testing footage will be available through YouTu
 
 # Author
 
-### **Sujal Chauhan**  
+### **Sujal Chauhan |** [***Profile***](https://github.com/Sujalshadow11) <br>
 Robotics / Embedded Systems / Autonomous Navigation / PCB Designer
 
 # Team Members
-### **Mustafa Raja**
+### **Mustafa Raja |** [***Profile***](https://github.com/Raja-Mustafa) <br>
 Robotics / Coding Expert / Control Systems <br>
 <br>
 
