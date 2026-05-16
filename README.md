@@ -125,7 +125,6 @@ VIDEOS/
 ## Demonstration Videos
 
 Project demonstration videos and testing footage will be available through YouTube playlists.
----
 
 - [Year 1 Progression Videos (Click here)](VIDEOS/Year1_Vid_Links.md)
 - [Year 2 Progression Videos (Click here)](VIDEOS/Year2_Vid_Links.md)
@@ -147,6 +146,8 @@ Project demonstration videos and testing footage will be available through YouTu
 ## Media Resources
 - [Development Images](IMAGES)
 - [Video Archive](VIDEOS)
+
+---
 
 # Author
 
