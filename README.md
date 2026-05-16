@@ -130,7 +130,7 @@ Project demonstration videos and testing footage will be available through YouTu
 - [Year 1 Progression Videos (Click here)](VIDEOS/Year1_Vid_Links.md)
 - [Year 2 Progression Videos (Click here)](VIDEOS/Year2_Vid_Links.md)
 - [Year 3 Progression Videos (Click here)](VIDEOS/Year3_Vid_Links.md)
-- [Full Playlist (Click here)](VIDEOS/Full_Playlists_Links.md)
+- [Full Playlist (Click here)](VIDEOS/Full_Playlist_Link.md)
 
 ---
 
