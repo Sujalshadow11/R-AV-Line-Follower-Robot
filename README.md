@@ -59,6 +59,14 @@ DOCS/
 └── Year3.md
 
 CODE/
+├── EEPROM_print_for_shortest_path.ino
+├── First_Prototype_Robot_Code.ino
+├── IIT_Bombay_Code_Edit.ino
+├── OLED_TEENSY.ino
+├── SHORTEST_PATH.ino
+├── Technoxian_Code_Edit.ino
+├── UI.ino
+└── Update_Logic_for_turns.ino
 
 PCB/
 ├── Arduino_Nano_Carrier+Chassis_PCB
@@ -81,9 +89,9 @@ VIDEOS/
 
 ## Documentation
 
-- [Year 1 Development Journey](DOCS/Year1.md)
-- [Year 2 Development Journey](DOCS/Year2.md)
-- [Year 3 Development Journey](DOCS/Year3.md)
+- [Year 1 Development Journey (Click here)](DOCS/Year1.md)
+- [Year 2 Development Journey (Click here)](DOCS/Year2.md)
+- [Year 3 Development Journey (Click here)](DOCS/Year3.md)
 
 ---
 
@@ -117,22 +125,45 @@ VIDEOS/
 ## Demonstration Videos
 
 Project demonstration videos and testing footage will be available through YouTube playlists.
+---
+
+- [Year 1 Progression Videos (Click here)](VIDEOS/Year1_Vid_Links.md)
+- [Year 2 Progression Videos (Click here)](VIDEOS/Year2_Vid_Links.md)
+- [Year 3 Progression Videos (Click here)](VIDEOS/Year3_Vid_Links.md)
+- [Full Playlist (Click here)](VIDEOS/Full_Playlists_Link.md)
 
 ---
 
-## Author
+# Project Assets
 
-**Sujal Chauhan**  
+## PCB Design Files
+- [Arduino Nano Carrier PCB](PCB/LFR.zip)
+- [Teensy 4.1 Carrier Module PCB](PCB/Array_PCB.zip)
+- [10-Channel Analog IR Sensor Array](PCB/Teensy_Carrier_Module_PCB.zip)
+
+## Source Code
+- [Robot Source Codes](CODE)
+
+## Media Resources
+- [Development Images](IMAGES)
+- [Video Archive](VIDEOS)
+
+# Author
+
+### **Sujal Chauhan**  
 Robotics / Embedded Systems / Autonomous Navigation / PCB Designer
 
-## Team Members
-**Mustafa Raja** <br>
+# Team Members
+### **Mustafa Raja**
 Robotics / Coding Expert / Control Systems <br>
-**Juned Ghanchi** <br>
-Electronics / Robot Design / Logic Building <br>
+<br>
 
-**Moksha Shah** <br>
-**Sneha Gohel** <br>
-**Alok Singh** <br>
-**Ritesh Swain** <br>
-**Om Sikligar** <br>
+### **Juned Ghanchi**
+Electronics / Robot Design / Logic Building <br>
+<br>
+
+### **Moksha Shah** <br>
+### **Sneha Gohel** <br>
+### **Alok Singh** <br>
+### **Ritesh Swain** <br>
+### **Om Sikligar** <br>
