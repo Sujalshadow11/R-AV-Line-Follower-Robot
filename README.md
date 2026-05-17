@@ -159,12 +159,26 @@ Robotics / Embedded Systems / Autonomous Navigation / PCB Designer
 Robotics / Coding Expert / Control Systems <br>
 <br>
 
-### **Juned Ghanchi**
+### **Juned Ghanchi |**
 Electronics / Robot Design / Logic Building <br>
 <br>
 
-### **Moksha Shah** <br>
-### **Sneha Gohel** <br>
-### **Alok Singh** <br>
-### **Ritesh Swain** <br>
-### **Om Sikligar** <br>
+### **Moksha Shah |**
+Autonomous navigation / Robotics and Embedded System / Coding / PCB Design <br>
+<br>
+
+### **Sneha Gohel |** 
+Electronics / Robotics Development / System Debugging / Embedded Designing <br>
+<br>
+
+### **Alok Singh |** [***Profile***](https://github.com/AlokSingh2006) <br>
+Robotics Hardware / Mechanical Design / Product Development/ Mechanical Assembly <br>
+<br>
+
+### **Ritesh Swain |** 
+Robot Design/Electronics <br>
+<br>
+
+### **Om Sikligar |** [***Profile***](https://github.com/mistryom2912) <br>
+Mechanical Design (Solidworks) / Hardware / Mechanical Assembly /Product Development<br>
+<br>
