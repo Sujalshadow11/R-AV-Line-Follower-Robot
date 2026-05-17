@@ -163,11 +163,11 @@ Robotics / Coding Expert / Control Systems <br>
 Electronics / Robot Design / Logic Building <br>
 <br>
 
-### **Moksha Shah |**
+### **Moksha Shah |** [***Profile***](https://github.com/MokshaShah-24) <br>
 Autonomous navigation / Robotics and Embedded System / Coding / PCB Design <br>
 <br>
 
-### **Sneha Gohel |** 
+### **Sneha Gohel |** [***Profile***](https://github.com/snehagohel631-ctrl) <br>
 Electronics / Robotics Development / System Debugging / Embedded Designing <br>
 <br>
 
@@ -175,7 +175,7 @@ Electronics / Robotics Development / System Debugging / Embedded Designing <br>
 Robotics Hardware / Mechanical Design / Product Development/ Mechanical Assembly <br>
 <br>
 
-### **Ritesh Swain |** 
+### **Ritesh Swain |** [***Profile***](https://github.com/masterstone666) <br>
 Robot Design/Electronics <br>
 <br>
 
