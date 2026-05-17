@@ -159,7 +159,7 @@ Robotics / Embedded Systems / Autonomous Navigation / PCB Designer
 Robotics / Coding Expert / Control Systems <br>
 <br>
 
-### **Juned Ghanchi |**
+### **Juned Ghanchi |** [***Profile***](https://github.com/juned-2005) <br>
 Electronics / Robot Design / Logic Building <br>
 <br>
 
